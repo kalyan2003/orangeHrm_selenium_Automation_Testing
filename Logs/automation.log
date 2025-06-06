@@ -1,0 +1,516 @@
+2025-06-04 02:52:13 PM: INFO: ********Test_001_login********
+2025-06-04 02:52:13 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-04 02:52:16 PM: INFO: *********** Home page title test is passed******
+2025-06-04 02:52:17 PM: INFO: ********* Login test*******
+2025-06-04 02:52:28 PM: INFO: ********** Login test is passed*********
+2025-06-04 02:52:58 PM: INFO: ********Test_001_login********
+2025-06-04 02:52:58 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-04 02:53:01 PM: ERROR: ********** Home page title test is failed************
+2025-06-04 02:53:02 PM: INFO: ********* Login test*******
+2025-06-04 02:53:12 PM: INFO: ********** Login test is passed*********
+2025-06-04 03:07:03 PM: INFO: ********Test_001_login********
+2025-06-04 03:07:03 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-04 03:07:07 PM: INFO: *********** Home page title test is passed******
+2025-06-04 03:07:08 PM: INFO: ********* Login test*******
+2025-06-04 03:07:17 PM: INFO: ********** Login test is passed*********
+2025-06-04 03:08:14 PM: INFO: ********Test_001_login********
+2025-06-04 03:08:14 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-04 03:08:19 PM: INFO: *********** Home page title test is passed******
+2025-06-04 03:08:26 PM: INFO: ********* Login test*******
+2025-06-04 03:08:38 PM: INFO: ********** Login test is passed*********
+2025-06-04 03:27:50 PM: INFO: ********Test_001_login********
+2025-06-04 03:27:50 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-04 03:27:53 PM: INFO: *********** Home page title test is passed******
+2025-06-04 03:27:54 PM: INFO: ********* Login test*******
+2025-06-04 03:28:04 PM: INFO: ********** Login test is passed*********
+2025-06-05 10:39:54 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-05 10:39:54 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-05 10:42:08 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-05 10:42:09 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-05 10:42:18 AM: INFO: ****Passed*****
+2025-06-05 10:43:28 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-05 10:43:28 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-05 10:43:37 AM: INFO: ****Passed*****
+2025-06-05 10:48:10 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-05 10:48:10 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-05 10:48:21 AM: INFO: ****Passed*****
+2025-06-05 11:09:23 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-05 11:09:23 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-05 11:09:32 AM: INFO: ****Passed*****
+2025-06-05 11:11:40 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-05 11:11:40 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-05 11:11:50 AM: INFO: ****Passed*****
+2025-06-05 11:17:11 AM: INFO: ------- Test_002_DDT_Login------
+2025-06-05 11:17:11 AM: INFO: ********* Verifying Login DDT test *******
+2025-06-05 11:17:24 AM: INFO: ****Passed*****
+2025-06-05 11:17:32 AM: WARNING: Dashboard element not found for username: Admin23. Exception: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff72673fea5+79173]
+	GetHandleVerifier [0x0x7ff72673ff00+79264]
+	(No symbol) [0x0x7ff7264f9e5a]
+	(No symbol) [0x0x7ff726550586]
+	(No symbol) [0x0x7ff72655083c]
+	(No symbol) [0x0x7ff7265a4247]
+	(No symbol) [0x0x7ff7265789af]
+	(No symbol) [0x0x7ff7265a100d]
+	(No symbol) [0x0x7ff726578743]
+	(No symbol) [0x0x7ff7265414c1]
+	(No symbol) [0x0x7ff726542253]
+	GetHandleVerifier [0x0x7ff726a0a2dd+3004797]
+	GetHandleVerifier [0x0x7ff726a0472d+2981325]
+	GetHandleVerifier [0x0x7ff726a23380+3107360]
+	GetHandleVerifier [0x0x7ff72675aa2e+188622]
+	GetHandleVerifier [0x0x7ff7267622bf+219487]
+	GetHandleVerifier [0x0x7ff726748df4+115860]
+	GetHandleVerifier [0x0x7ff726748fa9+116297]
+	GetHandleVerifier [0x0x7ff72672f558+11256]
+	BaseThreadInitThunk [0x0x7ffdbd88259d+29]
+	RtlUserThreadStart [0x0x7ffdbecaaf78+40]
+
+2025-06-05 11:17:32 AM: INFO: ***** Passed *******
+2025-06-05 11:17:37 AM: WARNING: Dashboard element not found for username: Adminnn. Exception: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff72673fea5+79173]
+	GetHandleVerifier [0x0x7ff72673ff00+79264]
+	(No symbol) [0x0x7ff7264f9e5a]
+	(No symbol) [0x0x7ff726550586]
+	(No symbol) [0x0x7ff72655083c]
+	(No symbol) [0x0x7ff7265a4247]
+	(No symbol) [0x0x7ff7265789af]
+	(No symbol) [0x0x7ff7265a100d]
+	(No symbol) [0x0x7ff726578743]
+	(No symbol) [0x0x7ff7265414c1]
+	(No symbol) [0x0x7ff726542253]
+	GetHandleVerifier [0x0x7ff726a0a2dd+3004797]
+	GetHandleVerifier [0x0x7ff726a0472d+2981325]
+	GetHandleVerifier [0x0x7ff726a23380+3107360]
+	GetHandleVerifier [0x0x7ff72675aa2e+188622]
+	GetHandleVerifier [0x0x7ff7267622bf+219487]
+	GetHandleVerifier [0x0x7ff726748df4+115860]
+	GetHandleVerifier [0x0x7ff726748fa9+116297]
+	GetHandleVerifier [0x0x7ff72672f558+11256]
+	BaseThreadInitThunk [0x0x7ffdbd88259d+29]
+	RtlUserThreadStart [0x0x7ffdbecaaf78+40]
+
+2025-06-05 11:17:37 AM: INFO: ***** Passed *******
+2025-06-05 11:17:37 AM: INFO: ***** Login DDT test passed *****
+2025-06-05 11:17:37 AM: INFO: ***** End of Login DDT Test *******
+2025-06-05 11:17:37 AM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-05 02:51:17 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 02:51:17 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 02:54:21 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 02:54:21 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 02:54:43 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 02:54:43 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 02:59:01 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 02:59:01 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 03:00:07 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 03:00:07 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 03:01:15 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 03:01:15 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 03:01:24 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 03:01:24 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 03:02:32 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 03:02:32 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 03:02:52 PM: INFO: **** Employee details are submitted ********
+2025-06-05 03:02:52 PM: INFO: ------- Checking whether employee details are saved ----------
+2025-06-05 03:03:16 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 03:03:16 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 03:03:42 PM: INFO: **** Employee details are submitted ********
+2025-06-05 03:03:42 PM: INFO: ------- Checking whether employee details are saved ----------
+2025-06-05 03:03:42 PM: INFO: ********** Add Employee test Passed **********
+2025-06-05 03:03:42 PM: INFO: ********* Ending Add Employee test ************
+2025-06-05 04:23:29 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 04:23:29 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 04:25:27 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 04:25:27 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 04:25:50 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 04:25:50 PM: INFO: ********* Search Employee through employee name is failed ***********
+2025-06-05 04:27:48 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 04:27:48 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 04:28:11 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 04:44:47 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 04:44:47 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 04:46:04 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 04:46:04 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 04:48:22 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 04:48:22 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 04:49:39 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 04:49:39 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 04:50:04 PM: INFO: ********Test_001_login********
+2025-06-05 04:50:04 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-05 04:50:08 PM: INFO: *********** Home page title test is passed******
+2025-06-05 04:50:09 PM: INFO: ********* Login test*******
+2025-06-05 04:51:03 PM: INFO: ********Test_001_login********
+2025-06-05 04:51:03 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-05 04:51:08 PM: INFO: *********** Home page title test is passed******
+2025-06-05 04:51:09 PM: INFO: ********* Login test*******
+2025-06-05 04:52:41 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 04:52:41 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 04:56:33 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 04:56:33 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 04:58:52 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 04:58:52 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 04:59:29 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 04:59:29 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 05:00:43 PM: INFO: ********Test_001_login********
+2025-06-05 05:00:43 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-05 05:00:46 PM: INFO: *********** Home page title test is passed******
+2025-06-05 05:00:47 PM: INFO: ********* Login test*******
+2025-06-05 05:03:50 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 05:03:50 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 05:04:32 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 05:04:32 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 05:06:15 PM: INFO: ********Test_001_login********
+2025-06-05 05:06:15 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-05 05:06:19 PM: INFO: *********** Home page title test is passed******
+2025-06-05 05:06:20 PM: INFO: ********* Login test*******
+2025-06-05 05:06:43 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 05:06:43 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 05:09:25 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 05:09:25 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 05:18:58 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 05:18:58 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 05:19:43 PM: INFO: ********Test_001_login********
+2025-06-05 05:19:43 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-05 05:19:50 PM: INFO: *********** Home page title test is passed******
+2025-06-05 05:19:51 PM: INFO: ********* Login test*******
+2025-06-05 05:21:46 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 05:21:46 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 05:23:53 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 05:23:53 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 05:24:54 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 05:24:54 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 05:26:23 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 05:26:23 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 05:27:34 PM: INFO: ********Test_001_login********
+2025-06-05 05:27:34 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-05 05:27:37 PM: INFO: *********** Home page title test is passed******
+2025-06-05 05:27:38 PM: INFO: ********* Login test*******
+2025-06-05 05:29:31 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 05:29:31 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 05:35:00 PM: INFO: ------- Test_002_DDT_Login------
+2025-06-05 05:35:00 PM: INFO: ********* Verifying Login DDT test *******
+2025-06-05 05:35:31 PM: INFO: ********Test_001_login********
+2025-06-05 05:35:31 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-05 05:35:33 PM: INFO: *********** Home page title test is passed******
+2025-06-05 05:35:34 PM: INFO: ********* Login test*******
+2025-06-05 05:35:59 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 05:35:59 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 05:37:00 PM: INFO: ********Test_001_login********
+2025-06-05 05:37:00 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-05 05:37:03 PM: INFO: *********** Home page title test is passed******
+2025-06-05 05:37:04 PM: INFO: ********* Login test*******
+2025-06-05 05:56:40 PM: INFO: ********Test_001_login********
+2025-06-05 05:56:40 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-05 05:56:44 PM: INFO: *********** Home page title test is passed******
+2025-06-05 05:56:45 PM: INFO: ********* Login test*******
+2025-06-05 05:57:29 PM: INFO: ********Test_001_login********
+2025-06-05 05:57:29 PM: INFO: ******** Verifying Home Page Title ********
+2025-06-05 05:57:32 PM: INFO: *********** Home page title test is passed******
+2025-06-05 05:57:33 PM: INFO: ********* Login test*******
+2025-06-05 07:48:25 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 07:48:25 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:02:46 PM: INFO: ------- Test_002_DDT_Login------
+2025-06-05 10:02:46 PM: INFO: ********* Verifying Login DDT test *******
+2025-06-05 10:02:55 PM: INFO: ****Passed*****
+2025-06-05 10:03:03 PM: WARNING: Dashboard element not found for username: Admin23. Exception: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff73813fea5+79173]
+	GetHandleVerifier [0x0x7ff73813ff00+79264]
+	(No symbol) [0x0x7ff737ef9e5a]
+	(No symbol) [0x0x7ff737f50586]
+	(No symbol) [0x0x7ff737f5083c]
+	(No symbol) [0x0x7ff737fa4247]
+	(No symbol) [0x0x7ff737f789af]
+	(No symbol) [0x0x7ff737fa100d]
+	(No symbol) [0x0x7ff737f78743]
+	(No symbol) [0x0x7ff737f414c1]
+	(No symbol) [0x0x7ff737f42253]
+	GetHandleVerifier [0x0x7ff73840a2dd+3004797]
+	GetHandleVerifier [0x0x7ff73840472d+2981325]
+	GetHandleVerifier [0x0x7ff738423380+3107360]
+	GetHandleVerifier [0x0x7ff73815aa2e+188622]
+	GetHandleVerifier [0x0x7ff7381622bf+219487]
+	GetHandleVerifier [0x0x7ff738148df4+115860]
+	GetHandleVerifier [0x0x7ff738148fa9+116297]
+	GetHandleVerifier [0x0x7ff73812f558+11256]
+	BaseThreadInitThunk [0x0x7ffdbd88259d+29]
+	RtlUserThreadStart [0x0x7ffdbecaaf78+40]
+
+2025-06-05 10:03:03 PM: INFO: ***** Passed *******
+2025-06-05 10:03:08 PM: WARNING: Dashboard element not found for username: Adminnn. Exception: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff73813fea5+79173]
+	GetHandleVerifier [0x0x7ff73813ff00+79264]
+	(No symbol) [0x0x7ff737ef9e5a]
+	(No symbol) [0x0x7ff737f50586]
+	(No symbol) [0x0x7ff737f5083c]
+	(No symbol) [0x0x7ff737fa4247]
+	(No symbol) [0x0x7ff737f789af]
+	(No symbol) [0x0x7ff737fa100d]
+	(No symbol) [0x0x7ff737f78743]
+	(No symbol) [0x0x7ff737f414c1]
+	(No symbol) [0x0x7ff737f42253]
+	GetHandleVerifier [0x0x7ff73840a2dd+3004797]
+	GetHandleVerifier [0x0x7ff73840472d+2981325]
+	GetHandleVerifier [0x0x7ff738423380+3107360]
+	GetHandleVerifier [0x0x7ff73815aa2e+188622]
+	GetHandleVerifier [0x0x7ff7381622bf+219487]
+	GetHandleVerifier [0x0x7ff738148df4+115860]
+	GetHandleVerifier [0x0x7ff738148fa9+116297]
+	GetHandleVerifier [0x0x7ff73812f558+11256]
+	BaseThreadInitThunk [0x0x7ffdbd88259d+29]
+	RtlUserThreadStart [0x0x7ffdbecaaf78+40]
+
+2025-06-05 10:03:08 PM: INFO: ***** Passed *******
+2025-06-05 10:03:08 PM: INFO: ***** Login DDT test passed *****
+2025-06-05 10:03:09 PM: INFO: ***** End of Login DDT Test *******
+2025-06-05 10:03:09 PM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-05 10:04:19 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 10:04:19 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 10:04:46 PM: INFO: **** Employee details are submitted ********
+2025-06-05 10:04:46 PM: INFO: ------- Checking whether employee details are saved ----------
+2025-06-05 10:04:46 PM: INFO: ********** Add Employee test Passed **********
+2025-06-05 10:04:46 PM: INFO: ********* Ending Add Employee test ************
+2025-06-05 10:05:52 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:05:52 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:07:11 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:07:11 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:07:35 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:17:03 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:17:03 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:17:44 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:17:44 PM: INFO: ********* Search Employee through employee name is failed ***********
+2025-06-05 10:19:51 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:19:51 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:20:32 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:20:37 PM: INFO: ********* Search Employee through employee name is failed ***********
+2025-06-05 10:21:54 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:21:54 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:22:36 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:23:47 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:23:47 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:24:27 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:25:42 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:25:42 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:26:23 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:26:28 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 10:30:13 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:30:13 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:30:54 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:30:59 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 10:32:35 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:32:35 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:33:16 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:33:21 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 10:34:16 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:34:16 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:35:00 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:35:26 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-05 10:35:26 PM: INFO: ****** Started Add Employee Test *******
+2025-06-05 10:35:54 PM: INFO: **** Employee details are submitted ********
+2025-06-05 10:35:54 PM: INFO: ------- Checking whether employee details are saved ----------
+2025-06-05 10:35:54 PM: INFO: ********** Add Employee test Passed **********
+2025-06-05 10:35:55 PM: INFO: ********* Ending Add Employee test ************
+2025-06-05 10:40:42 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:40:42 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:41:22 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:41:28 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 10:44:18 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:44:18 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:45:30 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:45:30 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:46:17 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:46:22 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 10:57:34 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 10:57:34 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 10:58:20 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 10:58:25 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 11:01:31 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:01:31 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:05:00 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:05:00 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:05:45 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 11:05:50 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 11:07:11 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:07:11 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:07:55 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 11:08:00 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 11:08:14 PM: INFO: ********* Search Employee through employee name is failed ***********
+2025-06-05 11:09:13 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:09:13 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:10:00 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 11:10:05 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 11:10:19 PM: INFO: ********* Search Employee through employee name is failed ***********
+2025-06-05 11:10:38 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:10:38 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:11:26 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 11:11:31 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 11:21:13 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:21:13 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:22:50 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:22:50 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:23:38 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:23:38 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:24:14 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:24:14 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:25:31 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:25:31 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:25:37 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:25:37 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:26:23 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 11:26:28 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 11:26:41 PM: INFO: ********* Search Employee through employee name is failed ***********
+2025-06-05 11:27:17 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:27:17 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:27:59 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 11:28:04 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 11:28:17 PM: INFO: ********* Search Employee through employee name is failed ***********
+2025-06-05 11:30:24 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-05 11:30:24 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-05 11:31:07 PM: INFO: ****** Now verifying the Search division *******
+2025-06-05 11:31:12 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-05 11:31:26 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-06 02:54:26 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-06 02:54:26 PM: INFO: ****** Started Add Employee Test *******
+2025-06-06 02:54:50 PM: INFO: **** Employee details are submitted ********
+2025-06-06 02:54:50 PM: INFO: ------- Checking whether employee details are saved ----------
+2025-06-06 02:54:50 PM: INFO: ********** Add Employee test Passed **********
+2025-06-06 02:54:50 PM: INFO: ********* Ending Add Employee test ************
+2025-06-06 02:55:08 PM: INFO: ------- Test_002_DDT_Login------
+2025-06-06 02:55:08 PM: INFO: ********* Verifying Login DDT test *******
+2025-06-06 02:55:20 PM: INFO: ****Passed*****
+2025-06-06 02:55:26 PM: WARNING: Dashboard element not found for username: Admin23. Exception: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c571fea5+79173]
+	GetHandleVerifier [0x0x7ff6c571ff00+79264]
+	(No symbol) [0x0x7ff6c54d9e5a]
+	(No symbol) [0x0x7ff6c5530586]
+	(No symbol) [0x0x7ff6c553083c]
+	(No symbol) [0x0x7ff6c5584247]
+	(No symbol) [0x0x7ff6c55589af]
+	(No symbol) [0x0x7ff6c558100d]
+	(No symbol) [0x0x7ff6c5558743]
+	(No symbol) [0x0x7ff6c55214c1]
+	(No symbol) [0x0x7ff6c5522253]
+	GetHandleVerifier [0x0x7ff6c59ea2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c59e472d+2981325]
+	GetHandleVerifier [0x0x7ff6c5a03380+3107360]
+	GetHandleVerifier [0x0x7ff6c573aa2e+188622]
+	GetHandleVerifier [0x0x7ff6c57422bf+219487]
+	GetHandleVerifier [0x0x7ff6c5728df4+115860]
+	GetHandleVerifier [0x0x7ff6c5728fa9+116297]
+	GetHandleVerifier [0x0x7ff6c570f558+11256]
+	BaseThreadInitThunk [0x0x7ffdbd88259d+29]
+	RtlUserThreadStart [0x0x7ffdbecaaf78+40]
+
+2025-06-06 02:55:26 PM: INFO: ***** Passed *******
+2025-06-06 02:55:31 PM: WARNING: Dashboard element not found for username: Adminnn. Exception: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c571fea5+79173]
+	GetHandleVerifier [0x0x7ff6c571ff00+79264]
+	(No symbol) [0x0x7ff6c54d9e5a]
+	(No symbol) [0x0x7ff6c5530586]
+	(No symbol) [0x0x7ff6c553083c]
+	(No symbol) [0x0x7ff6c5584247]
+	(No symbol) [0x0x7ff6c55589af]
+	(No symbol) [0x0x7ff6c558100d]
+	(No symbol) [0x0x7ff6c5558743]
+	(No symbol) [0x0x7ff6c55214c1]
+	(No symbol) [0x0x7ff6c5522253]
+	GetHandleVerifier [0x0x7ff6c59ea2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c59e472d+2981325]
+	GetHandleVerifier [0x0x7ff6c5a03380+3107360]
+	GetHandleVerifier [0x0x7ff6c573aa2e+188622]
+	GetHandleVerifier [0x0x7ff6c57422bf+219487]
+	GetHandleVerifier [0x0x7ff6c5728df4+115860]
+	GetHandleVerifier [0x0x7ff6c5728fa9+116297]
+	GetHandleVerifier [0x0x7ff6c570f558+11256]
+	BaseThreadInitThunk [0x0x7ffdbd88259d+29]
+	RtlUserThreadStart [0x0x7ffdbecaaf78+40]
+
+2025-06-06 02:55:31 PM: INFO: ***** Passed *******
+2025-06-06 02:55:31 PM: INFO: ***** Login DDT test passed *****
+2025-06-06 02:55:31 PM: INFO: ***** End of Login DDT Test *******
+2025-06-06 02:55:31 PM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-06 02:55:32 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-06 02:55:32 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-06 02:56:17 PM: INFO: ****** Now verifying the Search division *******
+2025-06-06 02:56:22 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-06 02:56:35 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-06 03:19:25 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-06 03:19:25 PM: INFO: ****** Started Add Employee Test *******
+2025-06-06 03:19:51 PM: INFO: **** Employee details are submitted ********
+2025-06-06 03:19:51 PM: INFO: ------- Checking whether employee details are saved ----------
+2025-06-06 03:19:51 PM: INFO: ********** Add Employee test Passed **********
+2025-06-06 03:19:51 PM: INFO: ********* Ending Add Employee test ************
+2025-06-06 03:20:09 PM: INFO: ------- Test_002_DDT_Login------
+2025-06-06 03:20:09 PM: INFO: ********* Verifying Login DDT test *******
+2025-06-06 03:20:20 PM: INFO: ****Passed*****
+2025-06-06 03:20:27 PM: WARNING: Dashboard element not found for username: Admin23. Exception: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c571fea5+79173]
+	GetHandleVerifier [0x0x7ff6c571ff00+79264]
+	(No symbol) [0x0x7ff6c54d9e5a]
+	(No symbol) [0x0x7ff6c5530586]
+	(No symbol) [0x0x7ff6c553083c]
+	(No symbol) [0x0x7ff6c5584247]
+	(No symbol) [0x0x7ff6c55589af]
+	(No symbol) [0x0x7ff6c558100d]
+	(No symbol) [0x0x7ff6c5558743]
+	(No symbol) [0x0x7ff6c55214c1]
+	(No symbol) [0x0x7ff6c5522253]
+	GetHandleVerifier [0x0x7ff6c59ea2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c59e472d+2981325]
+	GetHandleVerifier [0x0x7ff6c5a03380+3107360]
+	GetHandleVerifier [0x0x7ff6c573aa2e+188622]
+	GetHandleVerifier [0x0x7ff6c57422bf+219487]
+	GetHandleVerifier [0x0x7ff6c5728df4+115860]
+	GetHandleVerifier [0x0x7ff6c5728fa9+116297]
+	GetHandleVerifier [0x0x7ff6c570f558+11256]
+	BaseThreadInitThunk [0x0x7ffdbd88259d+29]
+	RtlUserThreadStart [0x0x7ffdbecaaf78+40]
+
+2025-06-06 03:20:27 PM: INFO: ***** Passed *******
+2025-06-06 03:20:33 PM: WARNING: Dashboard element not found for username: Adminnn. Exception: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c571fea5+79173]
+	GetHandleVerifier [0x0x7ff6c571ff00+79264]
+	(No symbol) [0x0x7ff6c54d9e5a]
+	(No symbol) [0x0x7ff6c5530586]
+	(No symbol) [0x0x7ff6c553083c]
+	(No symbol) [0x0x7ff6c5584247]
+	(No symbol) [0x0x7ff6c55589af]
+	(No symbol) [0x0x7ff6c558100d]
+	(No symbol) [0x0x7ff6c5558743]
+	(No symbol) [0x0x7ff6c55214c1]
+	(No symbol) [0x0x7ff6c5522253]
+	GetHandleVerifier [0x0x7ff6c59ea2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c59e472d+2981325]
+	GetHandleVerifier [0x0x7ff6c5a03380+3107360]
+	GetHandleVerifier [0x0x7ff6c573aa2e+188622]
+	GetHandleVerifier [0x0x7ff6c57422bf+219487]
+	GetHandleVerifier [0x0x7ff6c5728df4+115860]
+	GetHandleVerifier [0x0x7ff6c5728fa9+116297]
+	GetHandleVerifier [0x0x7ff6c570f558+11256]
+	BaseThreadInitThunk [0x0x7ffdbd88259d+29]
+	RtlUserThreadStart [0x0x7ffdbecaaf78+40]
+
+2025-06-06 03:20:33 PM: INFO: ***** Passed *******
+2025-06-06 03:20:33 PM: INFO: ***** Login DDT test passed *****
+2025-06-06 03:20:33 PM: INFO: ***** End of Login DDT Test *******
+2025-06-06 03:20:33 PM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-06 03:20:34 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-06 03:20:34 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-06 03:21:18 PM: INFO: ****** Now verifying the Search division *******
+2025-06-06 03:21:23 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-06 03:21:36 PM: INFO: ********* search employee through employee name Passed **************
