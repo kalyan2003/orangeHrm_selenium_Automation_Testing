@@ -514,3 +514,72 @@ Stacktrace:
 2025-06-06 03:21:18 PM: INFO: ****** Now verifying the Search division *******
 2025-06-06 03:21:23 PM: INFO: ********* search employee through employee name Passed **************
 2025-06-06 03:21:36 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-06 10:19:49 PM: INFO: ------- Test_003_Add_Employee--------
+2025-06-06 10:19:49 PM: INFO: ****** Started Add Employee Test *******
+2025-06-06 10:20:15 PM: INFO: **** Employee details are submitted ********
+2025-06-06 10:20:15 PM: INFO: ------- Checking whether employee details are saved ----------
+2025-06-06 10:20:15 PM: INFO: ********** Add Employee test Passed **********
+2025-06-06 10:20:15 PM: INFO: ********* Ending Add Employee test ************
+2025-06-06 10:20:34 PM: INFO: ------- Test_002_DDT_Login------
+2025-06-06 10:20:34 PM: INFO: ********* Verifying Login DDT test *******
+2025-06-06 10:20:47 PM: INFO: ****Passed*****
+2025-06-06 10:20:54 PM: WARNING: Dashboard element not found for username: Admin23. Exception: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64c01fea5+79173]
+	GetHandleVerifier [0x0x7ff64c01ff00+79264]
+	(No symbol) [0x0x7ff64bdd9e5a]
+	(No symbol) [0x0x7ff64be30586]
+	(No symbol) [0x0x7ff64be3083c]
+	(No symbol) [0x0x7ff64be84247]
+	(No symbol) [0x0x7ff64be589af]
+	(No symbol) [0x0x7ff64be8100d]
+	(No symbol) [0x0x7ff64be58743]
+	(No symbol) [0x0x7ff64be214c1]
+	(No symbol) [0x0x7ff64be22253]
+	GetHandleVerifier [0x0x7ff64c2ea2dd+3004797]
+	GetHandleVerifier [0x0x7ff64c2e472d+2981325]
+	GetHandleVerifier [0x0x7ff64c303380+3107360]
+	GetHandleVerifier [0x0x7ff64c03aa2e+188622]
+	GetHandleVerifier [0x0x7ff64c0422bf+219487]
+	GetHandleVerifier [0x0x7ff64c028df4+115860]
+	GetHandleVerifier [0x0x7ff64c028fa9+116297]
+	GetHandleVerifier [0x0x7ff64c00f558+11256]
+	BaseThreadInitThunk [0x0x7ffdbd88259d+29]
+	RtlUserThreadStart [0x0x7ffdbecaaf78+40]
+
+2025-06-06 10:20:54 PM: INFO: ***** Passed *******
+2025-06-06 10:20:59 PM: WARNING: Dashboard element not found for username: Adminnn. Exception: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64c01fea5+79173]
+	GetHandleVerifier [0x0x7ff64c01ff00+79264]
+	(No symbol) [0x0x7ff64bdd9e5a]
+	(No symbol) [0x0x7ff64be30586]
+	(No symbol) [0x0x7ff64be3083c]
+	(No symbol) [0x0x7ff64be84247]
+	(No symbol) [0x0x7ff64be589af]
+	(No symbol) [0x0x7ff64be8100d]
+	(No symbol) [0x0x7ff64be58743]
+	(No symbol) [0x0x7ff64be214c1]
+	(No symbol) [0x0x7ff64be22253]
+	GetHandleVerifier [0x0x7ff64c2ea2dd+3004797]
+	GetHandleVerifier [0x0x7ff64c2e472d+2981325]
+	GetHandleVerifier [0x0x7ff64c303380+3107360]
+	GetHandleVerifier [0x0x7ff64c03aa2e+188622]
+	GetHandleVerifier [0x0x7ff64c0422bf+219487]
+	GetHandleVerifier [0x0x7ff64c028df4+115860]
+	GetHandleVerifier [0x0x7ff64c028fa9+116297]
+	GetHandleVerifier [0x0x7ff64c00f558+11256]
+	BaseThreadInitThunk [0x0x7ffdbd88259d+29]
+	RtlUserThreadStart [0x0x7ffdbecaaf78+40]
+
+2025-06-06 10:20:59 PM: INFO: ***** Passed *******
+2025-06-06 10:20:59 PM: INFO: ***** Login DDT test passed *****
+2025-06-06 10:20:59 PM: INFO: ***** End of Login DDT Test *******
+2025-06-06 10:20:59 PM: INFO: ***** Completed TC_LoginDDT_002 ******
+2025-06-06 10:21:00 PM: INFO: --------- Test_004_Search_By_Employee ---------
+2025-06-06 10:21:00 PM: INFO: ************ Verifying Login search employee test **************
+2025-06-06 10:21:46 PM: INFO: ****** Now verifying the Search division *******
+2025-06-06 10:21:51 PM: INFO: ********* search employee through employee name Passed **************
+2025-06-06 10:22:04 PM: INFO: ********* search employee through employee name Passed **************
