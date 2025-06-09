@@ -41,13 +41,11 @@ class searchEmployee:
 
         return flag
 
-
-    def searchCustomerByemployeeId(self,emp_id):
+    def searchCustomerByemployeeId(self, emp_id):
         flag = False
-        employee_id = self.wait.until(EC.presence_of_element_located((By.XPATH,self.search_employee_Id_xpath)))
-        if emp_id == employee_id.text:
+        employee_id = self.wait.until(EC.presence_of_element_located((By.XPATH, self.search_employee_Id_xpath)))
+        if str(emp_id).strip() == employee_id.text.strip():
             flag = True
-
         return flag
 
 

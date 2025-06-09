@@ -8,15 +8,17 @@ from utilities.customLogger import logFileGen
 from pageObjects.addEmployee import addEmployee
 from pageObjects.searchEmployee import searchEmployee
 from pageObjects.addEmployee import generateRandomNumber
+from pageObjects.addEmployee import generateRandomname
 
 
 class Test_004_Search_by_Employee:
     baseUrl = ReadConfig.getApplicationURL()
     logger = logFileGen.loggen()
-    firstName = "ramu"
-    middleName = "kalyan"
-    lastName = "konidela"
+    firstName = generateRandomname(length=8)
+    middleName = generateRandomname(length=8)
+    lastName = generateRandomname(length=8)
     emp_id = generateRandomNumber(length=6)
+
 
     @pytest.mark.sanity
     @pytest.mark.regression
@@ -50,7 +52,7 @@ class Test_004_Search_by_Employee:
         time.sleep(3)
         self.searchEmp.searchButton()
         time.sleep(5)
-        flag = self.searchEmp.searchCustomerByemployeeId("0970489")
+        flag = self.searchEmp.searchCustomerByemployeeId(self.emp_id)
 
         if flag:
             assert True
