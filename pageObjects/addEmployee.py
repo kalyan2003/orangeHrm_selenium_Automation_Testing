@@ -1,5 +1,7 @@
 import random
 import string
+from time import sleep
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -15,6 +17,7 @@ class addEmployee:
     textbox_input_lastname = "//input[@name='lastName']"
     textbox_input_empId = "//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@class='oxd-input oxd-input--active']"
     save_button_xpath = "//button[@type='submit']"
+    userName_text = "//h6[@class='oxd-text oxd-text--h6 --strong']"
 
     def __init__(self,driver):
         self.driver = driver
@@ -46,9 +49,12 @@ class addEmployee:
         inputEmpid.send_keys(Keys.DELETE)
         inputEmpid.send_keys(empId)
 
-
     def clickSaveBut(self):
         self.driver.find_element(By.XPATH,self.save_button_xpath).click()
+
+    def find_profile_name(self):
+        username = self.wait.until(EC.presence_of_element_located((By.XPATH,self.userName_text)))
+        return username.text
 
 
 

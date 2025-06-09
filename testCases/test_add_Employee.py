@@ -6,12 +6,14 @@ from pageObjects.addEmployee import generateRandomname
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import logFileGen
 from selenium.webdriver.common.by import By
-
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class Test_003_Add_Employee:
     baseUrl = ReadConfig.getApplicationURL()
     logger = logFileGen.loggen()
+
     @pytest.mark.regression
     def test_add_employee(self,setup):
         self.logger.info("------- Test_003_Add_Employee--------")
@@ -35,13 +37,13 @@ class Test_003_Add_Employee:
         self.addEmp.setFirstname(self.firstName)
         self.addEmp.setMiddlename(self.middleName)
         self.addEmp.setLastName(self.lastName)
-        self.addEmp.setEmpId("09701")
+        self.addEmp.setEmpId("0970134")
         self.addEmp.clickSaveBut()
         time.sleep(10)
         self.logger.info("**** Employee details are submitted ********")
         self.logger.info("------- Checking whether employee details are saved ----------")
 
-        self.employee_name = self.driver.find_element(By.XPATH,"//h6[@class='oxd-text oxd-text--h6 --strong']").text
+        self.employee_name = self.addEmp.find_profile_name()
 
         if self.firstName in self.employee_name:
             assert True
