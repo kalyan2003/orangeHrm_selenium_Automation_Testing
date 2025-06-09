@@ -7,6 +7,7 @@ from utilities.readProperties import ReadConfig
 from utilities.customLogger import logFileGen
 from pageObjects.addEmployee import addEmployee
 from pageObjects.searchEmployee import searchEmployee
+from pageObjects.addEmployee import generateRandomNumber
 
 
 class Test_004_Search_by_Employee:
@@ -15,6 +16,7 @@ class Test_004_Search_by_Employee:
     firstName = "ramu"
     middleName = "kalyan"
     lastName = "konidela"
+    emp_id = generateRandomNumber(length=6)
 
     @pytest.mark.sanity
     @pytest.mark.regression
@@ -37,14 +39,14 @@ class Test_004_Search_by_Employee:
         self.addEmp.setFirstname(self.firstName)
         self.addEmp.setMiddlename(self.middleName)
         self.addEmp.setLastName(self.lastName)
-        self.addEmp.setEmpId("0970489")
+        self.addEmp.setEmpId(self.emp_id)
         self.addEmp.clickSaveBut()
         time.sleep(10)
         self.searchEmp = searchEmployee(self.driver)
         self.searchEmp.clickEmployeeList()
         time.sleep(5)
 
-        self.searchEmp.setEmployeeId("0970489")
+        self.searchEmp.setEmployeeId(self.emp_id)
         time.sleep(3)
         self.searchEmp.searchButton()
         time.sleep(5)

@@ -9,6 +9,7 @@ from pageObjects.addEmployee import addEmployee
 from pageObjects.searchEmployee import searchEmployee
 
 
+
 class Test_004_Search_by_Employee:
     baseUrl = ReadConfig.getApplicationURL()
     logger = logFileGen.loggen()
@@ -37,7 +38,7 @@ class Test_004_Search_by_Employee:
         self.addEmp.setFirstname(self.firstName)
         self.addEmp.setMiddlename(self.middleName)
         self.addEmp.setLastName(self.lastName)
-        self.addEmp.setEmpId("0970489")
+        self.addEmp.setEmpId("0977765")
         self.addEmp.clickSaveBut()
         time.sleep(10)
         self.searchEmp = searchEmployee(self.driver)
@@ -58,11 +59,11 @@ class Test_004_Search_by_Employee:
 
         self.searchEmp.resetButton()
         time.sleep(5)
-        self.searchEmp.setEmployeeId("0970489")
+        self.searchEmp.setEmployeeId("0977765")
         time.sleep(3)
         self.searchEmp.searchButton()
         time.sleep(5)
-        flag = self.searchEmp.searchCustomerByemployeeId("0970489")
+        flag = self.searchEmp.searchCustomerByemployeeId("0977765")
 
         if flag:
             assert True
