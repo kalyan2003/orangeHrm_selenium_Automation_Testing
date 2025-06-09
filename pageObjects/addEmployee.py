@@ -62,6 +62,13 @@ def generateRandomname(length=8):
     prefix = "user_"
     random_part = ''.join(random.choices(string.ascii_lowercase + string.digits, k=length))
     return prefix + random_part
+def generateRandomNumber(length=6):
+    if length <= 0:
+        return None
+    start = 10**(length - 1)
+    end = (10**length) - 1
+    return random.randint(start, end)
+
 
 
 
