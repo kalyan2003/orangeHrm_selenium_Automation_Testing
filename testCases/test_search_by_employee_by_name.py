@@ -9,10 +9,11 @@ from pageObjects.addEmployee import addEmployee
 from pageObjects.searchEmployee import searchEmployee
 from pageObjects.addEmployee import generateRandomNumber
 from pageObjects.addEmployee import generateRandomname
+from utilities.csvReportGeneration import write_result_to_csv
 
 
 
-class Test_004_Search_by_Employee:
+class Test_005_Search_by_Employee:
     baseUrl = ReadConfig.getApplicationURL()
     logger = logFileGen.loggen()
     firstName = generateRandomname(length=8)
@@ -54,10 +55,13 @@ class Test_004_Search_by_Employee:
         time.sleep(5)
         flag = self.searchEmp.searchCustomerByemployeeName(self.firstName)
         if flag:
-            assert True
             self.logger.info("********* search employee through employee name Passed **************")
+            write_result_to_csv("Test_005", self.__class__.__name__, "PASSED")
+            assert True
+
         else:
             self.logger.info("********* Search Employee through employee name is failed ***********")
+            write_result_to_csv("Test_005", self.__class__.__name__, "FAILED")
             assert False
 
         self.searchEmp.resetButton()
@@ -69,9 +73,11 @@ class Test_004_Search_by_Employee:
         flag = self.searchEmp.searchCustomerByemployeeId(self.emp_id)
 
         if flag:
+            write_result_to_csv("Test_005", self.__class__.__name__, "PASSED")
             assert True
             self.logger.info("********* search employee through employee name Passed **************")
         else:
+            write_result_to_csv("Test_005", self.__class__.__name__, "FAILED")
             self.logger.info("********* Search Employee through employee name is failed ***********")
             assert False
 

@@ -5,6 +5,7 @@ from pageObjects.LoginPage import Login
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import logFileGen
 from utilities import XLUtilities as xlu
+from utilities.csvReportGeneration import write_result_to_csv
 
 
 class Test_002_DDT_Login:
@@ -58,10 +59,12 @@ class Test_002_DDT_Login:
 
         if "Fail" not in list_status:
             self.logger.info("***** Login DDT test passed *****")
+            write_result_to_csv("Test_002", self.__class__.__name__, "PASSED")
             self.driver.close()
             assert True
         else:
             self.logger.info("**** Login DDT test failed ******")
+            write_result_to_csv("Test_002", self.__class__.__name__, "FAILED")
             self.driver.close()
             assert False
         self.logger.info("***** End of Login DDT Test *******")

@@ -9,6 +9,7 @@ from pageObjects.addEmployee import addEmployee
 from pageObjects.searchEmployee import searchEmployee
 from pageObjects.addEmployee import generateRandomNumber
 from pageObjects.addEmployee import generateRandomname
+from utilities.csvReportGeneration import write_result_to_csv
 
 
 class Test_004_Search_by_Employee:
@@ -56,7 +57,9 @@ class Test_004_Search_by_Employee:
 
         if flag:
             assert True
+            write_result_to_csv("Test_004",self.__class__.__name__,"PASSED")
             self.logger.info("********* search employee through employee name Passed **************")
         else:
+            write_result_to_csv("Test_004",self.__class__.__name__,"FAILED")
             self.logger.info("********* Search Employee through employee name is failed ***********")
             assert False

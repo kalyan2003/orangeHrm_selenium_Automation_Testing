@@ -6,6 +6,7 @@ from pageObjects.addEmployee import generateRandomname
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import logFileGen
 from pageObjects.addEmployee import generateRandomNumber
+from utilities.csvReportGeneration import write_result_to_csv
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -48,10 +49,12 @@ class Test_003_Add_Employee:
         self.employee_name = self.addEmp.find_profile_name()
 
         if self.firstName in self.employee_name:
-            assert True
             self.logger.info("********** Add Employee test Passed **********")
+            write_result_to_csv("Test_003", self.__class__.__name__,"PASSED")
+            assert True
         else:
             self.logger.info("********** Add Employee test Failed ***********")
+            write_result_to_csv("Test_003", self.__class__.__name__, "FAILED")
             assert False
 
 
